@@ -1,0 +1,45 @@
+// CA Intermediate Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM059",
+  slug: "ca-intermediate",
+  name: "CA Intermediate",
+  fullName: "CA Intermediate",
+  alias: "CA Intermediate",
+  family: "ICAI",
+  category: "Professional",
+  subcategory: "Accounting qualification",
+  country: "India",
+  region: "South Asia",
+  languages: ["English","Hindi"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Jan/May/Sep",
+  schedulePattern: "3 times/year",
+  ageGroup: "18-28",
+  targetUser: "Commerce student",
+  delivery: "Paper/computer mixed",
+  questionTypes: ["Objective + subjective"],
+  adaptivity: "Linear",
+  sections: "6 papers",
+  scoringMode: "Pass/fail",
+  essayOrSpeaking: "Writing",
+  ipRisk: "Low",
+  contentReuse: "accounting_finance",
+  uiEngine: "mixed_objective_subjective",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
